@@ -1,0 +1,429 @@
+@import 'tailwindcss';
+
+/* ========== COLOR VARIABLES ========== */
+:root {
+  --primary: #2d7b84;
+  --primary-dark: #225f65;
+  --secondary: #56a6a9;
+  --accent: #cce7e8;
+
+  --text: #333;
+
+  --bg: #f4f8f9;
+
+  --hover: #3b949c;
+
+  --check: #ff0000;
+}
+
+/* ========== RESET ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ========== GLOBAL ========== */
+body {
+   background: linear-gradient(
+    to bottom,
+    var(--secondary) 0%,
+    var(--accent) 40%,
+    var(--bg) 53%,
+    var(--bg) 100%
+  );
+  color: var(--text);
+}
+
+/* ========== NAVBAR ========== */
+nav {
+  background-color: var(--hover);
+  color: var(--accent);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 50px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+nav .logo .circle {
+  width: 32px;
+  height: 32px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+nav ul li a {
+  color: var(--text-white);
+  text-decoration: none;
+  font-size: 15px;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  color: var(--accent);
+}
+
+/* ========== HERO ========== */
+.hero {
+  background: transparent;
+  color: var(--primary);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px 60px;
+}
+
+.hero .text {
+  width: 50%;
+  padding-right: 40px;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.8;
+  opacity: 0.95;
+}
+
+.hero .button {
+  background-color: var(--accent);
+  color: var(--hover);
+  border: none;
+  padding: 14px 39px;
+  border-radius: 99px;
+  font-weight: 550;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+}
+
+.hero .button:hover {
+  background-color: var(--hover);
+  color: var(--bg);
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.hero .image {
+  width: 48%;
+  height: 332px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+
+/* ========== TUGAS KK1 ========== */
+.tugas-section {
+  background-color: var(--bg);
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.tugas-section h2 {
+  margin-bottom: 25px;
+  color: var(--primary);
+  font-size: 24px;
+}
+
+.tugas-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.tugas-card {
+  background-color: var(--primary);
+  border-radius: 12px;
+  width: 200px;
+  height: 120px;
+  color: var(--text-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.tugas-card:hover {
+  transform: scale(1.08);
+  background-color: var(--hover);
+}
+
+/* ========== DAFTAR KELAS ========== */
+.kelas-section {
+  background: transparent;
+  color : var(--primary);
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.kelas-section h2 {
+  margin-bottom: 25px;
+  color: var(--primary);
+  font-size: 30px;
+  font-style: bold ;
+  font-weight: 700;
+}
+
+.kelas-section select {
+  background-color: var(--accent);
+  margin-bottom: 30px;
+  padding: 7px 12px;
+  border-radius: 6px;
+  border: 3px solid var(--primary--dark);
+  font-size: 15px;
+  color: var(--primary-dark);
+}
+
+.kelas-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  color: var(--primary);
+}
+
+.kelas-card {
+  background-color: var(--secondary);
+  border-radius: 12px;
+  width: 200px;
+  height: 120px;
+  color: var(--primary-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.kelas-card:hover {
+  transform: scale(1.08);
+  background-color: var(--hover);
+  color: var(--accent);
+}
+
+/* ========== DAFTAR GURU ========== */
+.guru-section {
+  background: transparent;
+  color: var(--text-white);
+  padding: 60px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.guru-section .h2 {
+  margin-bottom: 25px;
+  color: var(--primary);
+  font-size: 27px;
+  font-style: bold ;
+  font-weight: 700;
+}
+
+.guru-section .foto img {
+  object-fit: cover;
+  padding: 60px;
+  width: 600px;
+  height: 230px;
+  border-radius: 15%;
+  background-color: var(--accent);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.guru-section .guru-card {
+  display: flex;
+  align-items: center;
+  gap: 65px;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 70px;
+  width: 90%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.guru-section a.tombol {
+  background-color: var(--hover);
+  color: var(--accent);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: 0.3s;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.guru-section a.tombol:hover {
+  background-color: var(--secondary);
+  transform: translateY(-2px);
+  color: #eeeded ;
+}
+
+/* ========== FOOTER ========== */
+footer {
+  background-color: var(--primary-dark);
+  color: var(--accent);
+  text-align: center;
+  padding: 25px;
+}
+
+footer a {
+  color: var(--accent);
+  text-decoration: none;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+footer a:hover {
+  color: var(--text-white);
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 58, 64, 0.2); /* Sedikit warna hijau agar menyatu */
+    backdrop-filter: blur(5px); /* INI EFEK BLUR-NYA */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+/* Modal Box yang elegan */
+.modal-box {
+    background: white;
+    padding: 40px;
+    border-radius: 30px; /* Lebih rounded */
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+}
+
+.modal-box h3 {
+    color: var(--primary-color);
+    font-size: 1.8rem;
+    font-weight: 800; /* Lebih tebal */
+    margin-bottom: 8px;
+    letter-spacing: -0.5px; /* Sedikit lebih rapat agar terlihat premium */
+    text-transform: capitalize;
+}
+
+/* Input Password rapi */
+.input-pw {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    border: 2px solid #e2e8f0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Tombol */
+.btn-login {
+    width: 90%;
+    padding: 15px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: var(--primary-dark); /* Warna sedikit lebih gelap dari primary */
+    transform: translateY(-2px); /* Tombol sedikit terangkat */
+    box-shadow: 0 5px 10px rgba(13, 74, 82, 0.3); /* Bayangan saat di-hover */
+}
+
+.btn-cancel {
+    width: 90%;
+    padding: 12px;
+    margin: 15px auto 0 auto;
+    display: block;
+    background: #f1f5f9;
+    color: #64748b;
+    border: none;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.btn-cancel:hover {
+    background-color: #e2e8f0; /* Warna sedikit lebih gelap dari background awal */
+    color: #475569; /* Warna teks sedikit lebih gelap */
+}
+
+@keyframes slideUp {
+    from { transform: translateY(50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 100px 30px 50px;
+  }
+
+  .hero .text {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero .image {
+    width: 100%;
+    height: 300px;
+  }
+
+}

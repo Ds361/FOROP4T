@@ -1,0 +1,106 @@
+:root {
+  --primary-color: #225f65;
+  --secondary-color: #56a6a9;
+  --accent-color: #2d7b84;
+  --border-color: #d1d5db;
+  --text-dark: #333;
+  --check: #ff0000;
+}
+
+.btn-status {
+  padding: 4px 10px;
+  border: 1px solid #ffffff;
+  background: #ef4444 ;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-status.active[data-status="izin"] {
+  background: #3b82f6;
+  color: white;
+  border-color: #3b82f6;
+}
+
+.btn-status.active[data-status="sakit"] {
+  background: #f59e0b;
+  color: white;
+  border-color: #f59e0b;
+}
+
+.btn-status.active[data-status="alpha"] {
+  background: #ef4444;
+  color: white;
+  border-color: #ef4444;
+}
+
+.card-form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 25px 30px;
+  margin: 20px auto;
+  width: 90%;
+  max-width: 800px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-color);
+}
+
+.card-form h3 {
+  color: var(--accent-color);
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+.card-form input[type="date"] {
+  padding: 8px 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--text-dark);
+}
+
+.card-form button[type="button"] {
+  padding: 8px 20px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.card-form button[type="button"]:hover {
+  background-color: var(--primary-color);
+}
+
+.card-form button[type="submit"] {
+  padding: 10px 25px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: 0.3s;
+}
+
+.card-form button[type="submit"]:hover {
+  background-color: var(--secondary-color);
+}
+
+.absensi-wrap > h3 {
+  text-align: center;
+  color: var(--accent-color);
+  margin: 20px 0 10px;
+}
+
+.divider {
+  width: 60%;
+  margin: 20px auto;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--accent-color), transparent);
+  border-radius: 2px;
+}
