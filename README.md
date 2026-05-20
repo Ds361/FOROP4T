@@ -1,59 +1,62 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+<H1> FOROP4T</H1>
+<hr>
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+<p> FOROP4T adalah sebuah website sistem informasi akademik yang dirancang khusus untuk menyederhanakan dan mengintegrasikan pengelolaan data operasional di lingkungan SMKN 4 Bandung. Platform ini hadir sebagai solusi atas rumitnya penyajian dokumen akademik tradisional dengan merombak total cara informasi tersebut ditampilkan agar jauh lebih terstruktur, modern, dan nyaman untuk dibaca.
+    
+Melalui website ini, seluruh informasi fundamental sekolah mulai dari data siswa per kelas, rekapitulasi absensi, daftar keseluruhan guru, hingga pemetaan spesifik mengenai guru yang mengajar mata pelajaran di suatu kelas dirangkum ke dalam satu wadah digital yang interaktif. Alih-alih melihat tumpukan jadwal dari Senin hingga Jumat yang membingungkan pada satu halaman penuh, pengguna FOROP4T dapat dengan mudah menavigasi dan menyaring informasi sesuai dengan kelas atau kebutuhan spesifik mereka. 
 
-## About Laravel
+Dengan antarmuka yang jelas dan tata letak yang bersih, website ini memastikan bahwa penyampaian informasi di SMKN 4 Bandung menjadi lebih cepat, terarah, dan tidak lagi membebani siswa dalam mencari data akademik mereka sehari-hari. </p>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<hr>
+<h2> Fitur </h2>
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+<p> Fitur </p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+<hr>
+<h2> Tech Stack </h2>
 
-## Learning Laravel
+<hr>
+<p> Demo Website </p>
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+<img width="400" height="224" alt="FOROP4T - Google Chrome 2026-05-20 12-13-29" src="https://github.com/user-attachments/assets/5040009c-d3a7-4b94-951e-154bf9339e93" />
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+<hr>
 
-## Laravel Sponsors
+<h2> Screenshot </h2>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+<h4 align="center"> Dashboard </h4>
 
-### Premium Partners
+<img width="1348" height="683" alt="image" src="https://github.com/user-attachments/assets/70a1817c-c05d-4f2b-9f4b-a826ef16017d" />
+<img width="1349" height="683" alt="image" src="https://github.com/user-attachments/assets/63be29a7-e045-48ee-af70-9437a9545099" />
+<img width="1352" height="683" alt="image" src="https://github.com/user-attachments/assets/bd11ea15-c1b6-4408-b9e5-c1a60b6350a6" />
+<img width="1348" height="684" alt="image" src="https://github.com/user-attachments/assets/3d631046-2ed5-4438-a074-e5ae28d1c98e" />
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+<h4 align="center"> Daftar Kelas </h4>
 
-## Contributing
+<img width="1351" height="619" alt="image" src="https://github.com/user-attachments/assets/5b20e194-1117-4cab-bf29-354d03668c5f" />
+<img width="1600" height="805" alt="image" src="https://github.com/user-attachments/assets/82a19b32-4d58-4cba-84e0-454b8b89cef4" />
+<img width="1352" height="681" alt="image" src="https://github.com/user-attachments/assets/589fbb74-02b8-4977-a6b1-563d35156890" />
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<img width="1352" height="680" alt="image" src="https://github.com/user-attachments/assets/1878e419-938e-4aea-9f37-0b42283ade5a" />
+<img width="1348" height="680" alt="image" src="https://github.com/user-attachments/assets/dc0a00ec-ea83-4dc7-b130-0cdfa790ca37" />
 
-## Code of Conduct
+<h4 align="center"> Data Guru </h4>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<img width="1350" height="679" alt="image" src="https://github.com/user-attachments/assets/77172eea-d3b8-4058-98cb-b038dc2a1231" />
+<img width="1349" height="678" alt="image" src="https://github.com/user-attachments/assets/dd1e142c-5f2f-4462-9d4b-5295a489de9d" />
+<img width="1351" height="681" alt="image" src="https://github.com/user-attachments/assets/58a166cf-cfd2-4c5a-9a07-aeb120a513c4" />
 
-## Security Vulnerabilities
+<hr>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<h4> Created by FOROP4T </h4>
+<p> - Destia Rahma </p>
+<p> - Naurah Salsabila </p>
+<p> - Raden Dinda Nasywatunnisa </p>
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+
+
+
+
