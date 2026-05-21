@@ -20,7 +20,7 @@ Fungsi:
 - Memudahkan siswa mengetahui mata pelajaran yang diampu guru
 - Menyediakan informasi guru secara rapi dan mudah diakses
 
-2. Fitur Login / Akses Data Siswa
+2. Fitur Akses Data Siswa
    
 Fitur ini digunakan sebagai sistem keamanan agar data siswa hanya dapat diakses oleh siswa dari kelas terkait menggunakan username dan password.
 
@@ -82,7 +82,7 @@ DataBase
 <hr>
 <p> Demo Website </p>
 
-<img width="" height="224" alt="FOROP4T - Google Chrome 2026-05-20 12-13-29" src="https://github.com/user-attachments/assets/5040009c-d3a7-4b94-951e-154bf9339e93" />
+<img width="400" height="224" alt="FOROP4T - Google Chrome 2026-05-20 12-13-29" src="https://github.com/user-attachments/assets/56aa5d9f-db9d-4550-9623-f8d9526e0cfe" />
 
 <hr>
 
@@ -113,9 +113,12 @@ DataBase
 <hr>
 
 <h4> Created by d'nanas </h4>
-<p> - Destia Rahma </p>
-<p> - Naurah Salsabila </p>
-<p> - Raden Dinda Nasywatunnisa </p>
+<p> - Destia Rahma (06) </p>
+<p> - Naurah Salsabila (25) </p>
+<p> - Raden Dinda Nasywatunnisa (26) </p>
+
+
+
 
 
 
