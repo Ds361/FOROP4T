@@ -10,15 +10,79 @@ Dengan antarmuka yang jelas dan tata letak yang bersih, website ini memastikan b
 <hr>
 <h2> Fitur </h2>
 
-<p> Fitur </p>
+<p> 
+1. Fitur Daftar Guru
+
+Fitur ini digunakan untuk menampilkan informasi mengenai guru yang mengajar di sekolah. Melalui fitur ini, siswa dapat melihat data guru secara mudah dan terstruktur melalui website.
+
+Fungsi:
+- Membantu siswa mengenal guru pengajar
+- Memudahkan siswa mengetahui mata pelajaran yang diampu guru
+- Menyediakan informasi guru secara rapi dan mudah diakses
+
+2. Fitur Login / Akses Data Siswa
+   
+Fitur ini digunakan sebagai sistem keamanan agar data siswa hanya dapat diakses oleh siswa dari kelas terkait menggunakan username dan password.
+
+Fungsi:
+- Menjaga privasi data siswa
+- Membatasi akses hanya untuk pengguna tertentu
+- Mengamankan data absensi dan jadwal kelas
+
+3. Fitur Absensi
+   
+Fitur absensi digunakan untuk melihat atau mencatat kehadiran siswa secara digital dalam kegiatan pembelajaran.
+
+Fungsi:
+- Memudahkan pengecekan kehadiran siswa
+- Membantu pengelolaan data absensi secara digital
+- Mengurangi penggunaan absensi manual
+
+4. Fitur Jadwal Pelajaran
+   
+Fitur jadwal pelajaran digunakan untuk menampilkan jadwal belajar siswa berdasarkan hari dan jam pelajaran.
+
+Fungsi:
+- Membantu siswa melihat jadwal pelajaran dengan mudah
+- Mengurangi kesalahan jadwal pelajaran
+- Membantu siswa mempersiapkan pelajaran sebelum kelas dimulai
+
+5. Fitur Data Siswa
+   
+Fitur ini digunakan untuk menampilkan informasi data siswa dalam suatu kelas secara terstruktur.
+
+Fungsi:
+- Mempermudah pendataan siswa
+- Menyimpan informasi siswa secara digital
+- Membantu pengelolaan data siswa agar lebih terorganisir </p>
 
 <hr>
 <h2> Tech Stack </h2>
 
+<p> 
+
+Design & Tools
+- Figma
+- Visual Studio Code 
+- XAMPP
+    
+FrontEnd
+- HTML
+- CSS
+- JavaScript
+  
+BackEnd
+- Laravel
+- PHP
+  
+DataBase
+- MySQL
+- phpMyAdmin </p>
+
 <hr>
 <p> Demo Website </p>
 
-<img width="400" height="224" alt="FOROP4T - Google Chrome 2026-05-20 12-13-29" src="https://github.com/user-attachments/assets/5040009c-d3a7-4b94-951e-154bf9339e93" />
+<img width="" height="224" alt="FOROP4T - Google Chrome 2026-05-20 12-13-29" src="https://github.com/user-attachments/assets/5040009c-d3a7-4b94-951e-154bf9339e93" />
 
 <hr>
 
@@ -48,7 +112,7 @@ Dengan antarmuka yang jelas dan tata letak yang bersih, website ini memastikan b
 
 <hr>
 
-<h4> Created by FOROP4T </h4>
+<h4> Created by d'nanas </h4>
 <p> - Destia Rahma </p>
 <p> - Naurah Salsabila </p>
 <p> - Raden Dinda Nasywatunnisa </p>
